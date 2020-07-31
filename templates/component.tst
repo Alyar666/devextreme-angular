@@ -37,6 +37,9 @@ import {
     QueryList<#?#>
 } from '@angular/core';
 
+<#~ it.types :type:i #>
+import { <#= type.name #> } from '<#= type.path #>';<#~#>
+
 <#? it.isDevExpressRequired #>
 import DevExpress from 'devextreme/bundles/dx.all';<#?#>
 

@@ -23,6 +23,8 @@ import {
 
 <#? it.hasTemplate #>import { DOCUMENT } from '@angular/common';<#?#>
 
+<#~ it.types :type:i #>
+import { <#= type.name #> } from '<#= type.path #>';<#~#>
 <#? it.isDevExpressRequired #>
 import DevExpress from 'devextreme/bundles/dx.all';<#?#>
 
